@@ -37,6 +37,7 @@ group :development, :test do
   gem 'pry-stack_explorer'
   gem 'erd', platforms: :ruby, require: false
   gem 'dotenv-rails'
+  gem 'better_errors'
 end
 
 group :development do
