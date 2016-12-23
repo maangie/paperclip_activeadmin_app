@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
+gem 'paperclip'
+gem 'aws-sdk'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
