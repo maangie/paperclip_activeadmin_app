@@ -3,6 +3,8 @@
 <p>
   <strong>Name:</strong>
   <%= @friend.name %>
+
+  <%= image_tag @friend.avatar.url %>
 </p>
 
 <%= link_to 'Edit', edit_friend_path(@friend) %> |
