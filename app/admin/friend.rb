@@ -8,8 +8,8 @@ ActiveAdmin.register Friend do
 
     column :name
 
-    column 'Avatar', sortable: :avatar_file_name do |friend|
-      link_to friend.avatar_file_name, friend.avatar.url
+    column 'Avatar' do |friend|
+      image_tag friend.avatar.url
     end
 
     column :avatar_file_size, sortable: :avatar_file_size do |friend|
