@@ -21,6 +21,10 @@ gem 'turbolinks', '~> 5'
 gem 'paperclip'
 gem 'aws-sdk'
 
+# https://github.com/activeadmin/activeadmin#rails-5
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'activeadmin', github: 'activeadmin'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
